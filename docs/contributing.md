@@ -53,6 +53,12 @@ Before contributing, ensure you have the following installed:
     !!! danger "PowerShell Not Supported"
         Do not report issues if using PowerShell for running commands -- it's not the intended way to run Nest locally.
 
+## Windows setup
+
+If you are contributing from Windows, use the dedicated step-by-step guide:
+
+- [Windows Contributor Setup Guide](windows-setup.md)
+
 ## Getting Started
 
 ### Support the Project
@@ -86,7 +92,7 @@ Before contributing, ensure you have the following installed:
         ```
         **Copy the contents from the template file into your new local environment file:**
         ```bash
-        cat backend/.env.example > frontend/.env
+        cat frontend/.env.example > frontend/.env
         ```
 
     !!! warning "File Encoding"
